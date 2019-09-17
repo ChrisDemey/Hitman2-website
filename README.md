@@ -1,6 +1,6 @@
 # **Mon site Hitman**
 
-Le lien du site : [https://chrisdemey.github.io/Hitman-site/](https://chrisdemey.github.io/Hitman-site/).
+Le lien du site : [https://chrisdemey.github.io/Hitman2-website/](https://chrisdemey.github.io/Hitman2-website/).
 
 ## **L'idée**
 <p>Tout d'abord, je suis un grand fan des jeux Hitman, mais surtout de ceux qui sont sortis en 2016 (Hitman) et 2018 (Hitman 2). Et j'adore l'interface simpliste que les développeurs ont mis en place dans ces jeux.<br>
