@@ -1,0 +1,67 @@
+{
+    "appnews": {
+        "appid": 863550,
+        "newsitems": [{
+            "gid": "2413289226973491427",
+            "title": "Hitman 2's new high security bank is a joy to break into",
+            "url": "https://steamstore-a.akamaihd.net/news/externalpost/pcgamer/2413289226973491427",
+            "is_external_url": true,
+            "author": "",
+            "contents": "There&apos;s something special about bank levels. Whenever a stealth game or an immersive sim asks me to sneak into a bank of any description, I find it hugely exciting. Walking into the gleaming marble lobby, taking a mental note of the armed guards, security cameras, bulletproof glass, and laser g...",
+            "feedlabel": "PC Gamer",
+            "date": 1568129610,
+            "feedname": "pcgamer",
+            "feed_type": 0,
+            "appid": 863550
+        }, {
+            "gid": "2413289226962250541",
+            "title": "Hitman 2 s September roadmap sends Agent 47 to The Maldives",
+            "url": "https://steamstore-a.akamaihd.net/news/externalpost/pcgamer/2413289226962250541",
+            "is_external_url": true,
+            "author": "",
+            "contents": "It&#x2019;s time that Agent 47 had a break from the assassin life. But unfortunately, his superiors have other arrangements. &#xA0;In <a href=\"https://www.ioi.dk/hitman-2-september-roadmap/\" target=\"_blank\">this month&apos;s Hitman 2 roadmap</a>, Agent 47 is jetting off to Haven Island, a tropical sun-soaked resort in The Maldives. But there&#x2019;s no time for pina coladas...",
+            "feedlabel": "PC Gamer",
+            "date": 1567860868,
+            "feedname": "pcgamer",
+            "feed_type": 0,
+            "appid": 863550
+        }, {
+            "gid": "2415540140452161124",
+            "title": "HITMAN 2 – August Update 2.60.0",
+            "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/2415540140452161124",
+            "is_external_url": true,
+            "author": "IO_Clemens",
+            "contents": "August in HITMAN 2 brings another content drop for Expansion Pass owners, adding the Smart Casual suit and 2 new items to Agent 47’s inventory. All HITMAN 2 owners will also get a host of quality-of-life improvements for various aspects of the game and numerous fixes and tweaks in this month’s updat...",
+            "feedlabel": "Community Announcements",
+            "date": 1566985517,
+            "feedname": "steam_community_announcements",
+            "feed_type": 1,
+            "appid": 863550
+        }, {
+            "gid": "2415540140451896914",
+            "title": "The Smart Casual Pack",
+            "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/2415540140451896914",
+            "is_external_url": true,
+            "author": "IO_Clemens",
+            "contents": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/32937893/85105e768f23a9b89f4bab99194706f61bd231f3.jpg Expansion Pass Content Release Details Owners of the Expansion Pass will be able to download the new Smart Casual Pack starting on August 27. We recommend that you always search f...",
+            "feedlabel": "Community Announcements",
+            "date": 1566979200,
+            "feedname": "steam_community_announcements",
+            "feed_type": 1,
+            "appid": 863550
+        }, {
+            "gid": "3556075649733228223",
+            "title": "All the Nvidia RTX ray tracing and DLSS games confirmed so far",
+            "url": "https://steamstore-a.akamaihd.net/news/externalpost/rps/3556075649733228223",
+            "is_external_url": true,
+            "author": "contact@rockpapershotgun.com (Katharine Castle)",
+            "contents": "<a href=\"https://assets.rockpapershotgun.com/images/2018/08/Nvidia-GeForce-RTX-games.jpg\"> </a> It&#8217;s Gamescom this week, which can only mean one thing &#8211; more confirmed ray tracing games for <a href=\"https://www.rockpapershotgun.com/2019/01/29/nvidia-rtx-everything-you-need-to-know/\" rel=\"noopener\" target=\"_blank\">Nvidia&#8217;s RTX</a> and selected GTX 16-series graphics cards. Indeed, the big one that&#8217;s just been announced is <a href=\"https://www.rockpapershotgun.com/2019/08/19/minecraft-gets-official-ray-tracing-support-for-nvidia-rtx-cards/\" rel=\"noopener\" target=\"_blank\">Minecraft</a>, which (like Quake II RTX) is getting full, real-time ray tracin...",
+            "feedlabel": "Rock, Paper, Shotgun",
+            "date": 1566207023,
+            "feedname": "rps",
+            "feed_type": 0,
+            "appid": 2320
+        }],
+        "count": 146
+    }
+}

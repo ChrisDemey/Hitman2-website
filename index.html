@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>The Hitman</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link type="image/png" rel="icon" href="./assets/img/hitmanLogo.png"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<body>
+<!-- Image and text -->
+    <nav class="navbar navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link linkMenuAcc" href="#slog">Accueil</a>
+                <a class="nav-item nav-link linkMenuAct" href="#divActus">Actualités</a>
+                <a class="nav-link dropdown-toggle dropright linkMenuJ" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Jeux
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item chronoBtn" href="#chrono">Chronologie</a>
+                    <a class="dropdown-item" href="#hitman1">Hitman: Codename 47</a>
+                    <a class="dropdown-item" href="#hitman2SA">Hitman 2: :Silent Assassin</a>
+                    <a class="dropdown-item" href="#hitmanCo">Hitman: Contracts</a>
+                    <a class="dropdown-item" href="#hitmanbm">Hitman: Blood Money</a>
+                    <a class="dropdown-item" href="#hitmanabs">Hitman: Absolution</a>
+                    <a class="dropdown-item" href="#hitman6">Hitman (2016)</a>
+                    <a class="dropdown-item" href="#hitman2">Hitman 2 (2018)</a>
+                </div>
+                <a class="nav-item nav-link linkMenuF" href="#forum">Forums</a>
+                <a class="nav-item nav-link linkMenuS" href="#socials">Social</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slogan hitman 2 -->
+    <div class="slogan" id="slog">
+        <h1>MAKE THE WORLD YOUR WEAPON</h1>
+        <h3 id="txtSecTxt"></h3>
+    </div>
+
+    <!-- Actualités -->    
+    <div class="bd-example actus col-md-10 offset-md-1" id="divActus">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item first active">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="actuTitle">Actu 1</h5>
+                        <p id="descriptionNews" class="artDescribe">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p id="newslink" class="artLink">Lien article</p>
+                        <!-- <p id="dateNews">Date</p> -->
+                    </div>
+                </div>
+                <div class="carousel-item second">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="actuTitle">Actu 2</h5>
+                        <p id="descriptionNews" class="artDescribe">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p id="newslink" class="artLink">Lien article</p>
+                        <!-- <p id="dateNews">Date</p> -->
+                    </div>
+                </div>
+                <div class="carousel-item third">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="actuTitle">Actu 3</h5>
+                        <p id="descriptionNews" class="artDescribe">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p id="newslink" class="artLink">Lien article</p>
+                        <!-- <p id="dateNews">Date</p> -->
+                    </div>
+                </div>
+                <div class="carousel-item fourth">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="actuTitle">Actu 4</h5>
+                        <p id="descriptionNews" class="artDescribe">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p id="newslink" class="artLink">Lien article</p>
+                        <!-- <p id="dateNews">Date</p> -->
+                    </div>
+                </div>
+                <div class="carousel-item fifth">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="actuTitle">Actu 5</h5>
+                        <p id="descriptionNews" class="artDescribe">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p id="newslink" class="artLink">Lien article</p>
+                        <!-- <p id="dateNews">Date</p> -->
+                    </div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                </ol>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Chronologie des jeux -->
+    <div class="container-fluid timeline col-md-10 offset-md-1" id="chrono">
+            <div class="row">
+                <div class="card">
+                    <div class="card-header">
+                        <p class="card-text">Hitman:<br>Codename 47</p>
+                    </div>
+                    <div class="card-bodyFirst"></div>
+                    <div class="card-footer">
+                        <p class="card-text">2000</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <p class="card-text">Hitman 2:<br>Silent Assassin</p>
+                    </div>
+                    <div class="card-bodySecond"></div>
+                    <div class="card-footer">
+                        <p class="card-text">2002</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <p class="card-text">Hitman:<br>Contracts</p>
+                    </div>
+                    <div class="card-bodyThird"></div>
+                    <div class="card-footer">
+                        <p class="card-text">2004</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <p class="card-text">Hitman:<br>Blood Money</p>
+                    </div>
+                    <div class="card-bodyFourth"></div>
+                    <div class="card-footer">
+                        <p class="card-text">2006</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <p class="card-text">Hitman:<br>Absolution</p>
+                    </div>
+                    <div class="card-bodyFifth"></div>
+                    <div class="card-footer">
+                        <p class="card-text">2012</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <p class="card-text">Hitman</p>
+                    </div>
+                    <div class="card-bodySixth"></div>
+                    <div class="card-footer">
+                        <p class="card-text">2016</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <p class="card-text">Hitman 2</p>
+                    </div>
+                    <div class="card-bodySeventh"></div>
+                    <div class="card-footer">
+                        <p class="card-text">2018</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- Hitman 1 -->
+    <div class="container hitman1" id="hitman1">
+        <div class="row">
+            <div class="col-md-6 imgHitman1" data-toggle="modal" data-target="#trailer1">
+            </div>
+            <div class="col-md-6 txtHitman1">
+                <h3>Hitman: Codename 47</h3>
+                <p>47 se réveille en sursaut par une voix familière qui s'adresse à lui à travers un système de
+                    haut-parleurs. Frappé d'amnésie et enfermé dans une chambre capitonnée, 47 ne sait pas qui il est ni
+                    où il est. Pendant son évasion, 47 s'aperçoit vite de ses talents de tueur en éliminant froidement
+                    tous les gardes sur son passage.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Hitman 2 SA -->
+    <div class="container hitman2SA" id="hitman2SA">
+        <div class="row">
+            <div class="col-md-6 imgHitman2S" data-toggle="modal" data-target="#trailer2">
+            </div>
+            <div class="col-md-6 txtHitman2S">
+                <h3>Hitman 2: Silent Assassin</h3>
+                <p>Deux ans après les évènements du premier opus, et la mort de son créateur, 47 décide de se retirer du
+                    monde des tueurs à gages. Réfugié dans une petite chapelle de Sicile, l'ancien meurtrier s'occupe du
+                    jardin de l'Église. Décidé à faire un trait sur son passé, 47 espère commencer une nouvelle vie,
+                    épaulé par le Père Vittorio.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Hitman contracts -->
+    <div class="container hitmanC" id="hitmanCo">
+        <div class="row">
+            <div class="col-md-6 imgHitmanC" data-toggle="modal" data-target="#trailer3">
+            </div>
+            <div class="col-md-6 txtHitmanC">
+                <h3>Hitman: Contracts</h3>
+                <p>Gravement blessé lors de l'exécution d'un de ses nombreux contrats, 47 se réfugie dans une chambre
+                    d'hôtel parisien où il s'effondre. Fiévreux, en plein délire, 47 voit sa vie défiler. C'est en
+                    ressassant ses anciens meurtres que 47 découvrira les valeurs de la vie.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Hitman BM -->
+    <div class="container hitmanBM" id="hitmanbm">
+        <div class="row">
+            <div class="col-md-6 imgHitmanBM" data-toggle="modal" data-target="#trailer4">
+            </div>
+            <div class="col-md-6 txtHitmanBM">
+                <h3>Hitman: Blood Money</h3>
+                <p>Le journaliste Rick Anderson est contacté par Alexander Leland Cayne, ancien directeur du FBI, à
+                    propos d'une affaire incroyable : après des années de traque, 47, tueur à gages légendaire et
+                    redouté de la pègre du monde entier, est mort. Sur place, Cayne révèle au journaliste les derniers
+                    mois de la vie de l'assassin et les circonstances de son décès.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Hitman Absolution -->
+    <div class="container hitmanA" id="hitmanabs">
+        <div class="row">
+            <div class="col-md-6 imgHitmanA" data-toggle="modal" data-target="#trailer5">
+            </div>
+            <div class="col-md-6 txtHitmanA">
+                <h3>Hitman: Absolution</h3>
+                <p>Le scénario tourne cette fois-ci autour d'une quête plus personnelle pour l'Agent 47, à la suite
+                    d'une probable trahison de son agence. 47 est chargé d'éliminer Diana, son agent de laison depuis
+                    des années, mais arrivé sur place, et près à appuyer sur la gachette, Diana révèle à 47 l'existence
+                    d'une fille du nom de Victoria qui le changera à jamais.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Hitman 2016 -->
+    <div class="container hitman" id="hitman6">
+        <div class="row">
+            <div class="col-md-6 imgHitman" data-toggle="modal" data-target="#trailer6">
+            </div>
+            <div class="col-md-6 txtHitman">
+                <h3>Hitman (2016)</h3>
+                <p>47 continue d'effectuer ses contrats à travers le monde, avec Diana Burnwood comme agent de liaison.
+                    Mais peu à peu, un certain "client de l'ombre" apparait et semble présenter une menace envers l'ICA.
+                    Mais cette menace semble très bien connaître 47 et ce depuis très longtemps.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Hitman 2018 -->
+    <div class="container hitman2" id="hitman2">
+        <div class="row">
+            <div class="col-md-6 imgHitman2" data-toggle="modal" data-target="#trailer7">
+            </div>
+            <div class="col-md-6 txtHitman2">
+                <h3>Hitman 2 (2018)</h3>
+                <p>Suite direct à l'opus sorti en 2016, 47 poursuit le client de l'ombre tout en effectuant ses contrats
+                    à travers le monde. À un moment ce "client de l'ombre" se révèlera à 47. La vérité derrière tout ça
+                    sera-t-elle d'une grande aide? Ou une plus grande menace?</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- modals trailers -->
+    <!-- hitman 1 -->
+    <div class="modal fade" id="trailer1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/w2TWgcSxo9s" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hitman 2 SA -->
+    <div class="modal fade" id="trailer2" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/6HfcsUPdIoc" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hitman C -->
+    <div class="modal fade" id="trailer3" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UskfQZGL934" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hitman BM -->
+    <div class="modal fade" id="trailer4" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DW5COFJtnhE" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hitman Abs -->
+    <div class="modal fade" id="trailer5" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/g3lxpmOzEkw" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hitman -->
+    <div class="modal fade" id="trailer6" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LVqxMCZ3u6k" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hitman 2 -->
+    <div class="modal fade" id="trailer7" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/R8aRCwbZGek"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Forums -->
+    <div class="container-fluid forums" id="forum">
+        <div class="row">
+            <a class="txtForum" href="https://www.hitmanforum.com/" target="_blank">FORUMS</a>
+        </div>
+    </div>
+
+    <!-- Social -->
+    <div class="container social" id="socials">
+        <div class="row">
+            <ul class="list-group list-group-horizontal">
+                <a href="https://discordapp.com/invite/hitman" target="_blank"><i class="fab fa-discord fa-4x"></i></a>
+                <a href="https://www.twitch.tv/hitman" target="_blank"><i class="fab fa-twitch fa-4x"></i></a>
+                <a href="https://www.youtube.com/user/hitman?hl=en&gl=US" target="_blank"><i class="fab fa-youtube fa-4x"></i></a>
+                <a href="https://www.facebook.com/Hitman.FR/?brand_redir=82040998986" target="_blank"><i class="fab fa-facebook-square fa-4x"></i></a>
+                <a href="https://twitter.com/hitman" target="_blank"><i class="fab fa-twitter fa-4x"></i></a>
+                <a href="https://www.reddit.com/r/HiTMAN/" target="_blank"><i class="fab fa-reddit-alien fa-4x"></i></a>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid footer">
+        <div class="row platformlogo">
+            <a href="https://www.playstation.com/fr-be/" target="_blank"><img src="./assets/img/footerLogos/ps4logo.png" alt="PS4 logo"></a>
+            <a href="https://www.xbox.com/fr-FR/" target="_blank"><img src="./assets/img/footerLogos/xboxonelogo.PNG" alt="Xbox One logo"></a>
+            <a href="" target="_blank"><img src="./assets/img/footerLogos/pcdigitlogo.png" alt="PC Gaming logo"></a>
+            <a href="https://www.ioi.dk/" target="_blank"><img src="./assets/img/footerLogos/ioilogo.png" alt="IOI logo"></a>
+            <a href="https://support.wbgames.com/hc/fr-fr" target="_blank"><img src="./assets/img/footerLogos/wbgameslogo.png" alt="WarnerBros Games logo"></a>
+            <a href="https://pegi.info/" target="_blank"><img src="./assets/img/footerLogos/pegi18provilogo.png" alt="PEGI 18 logo"></a>
+        </div>
+        <div class="row textBlock">
+            <p>HITMAN™ 2 © 2018 IO Interactive A/S. IO Interactive, le logo IOI, HITMAN 2, le logo HITMAN 2, et WORLD OF ASSASSINATION sont des marques commerciales ou déposées qui appartiennent ou sont sous licence exclusive de IO Interactive A/S. Distribué par Warner Bros. Home Entertainment Inc. Toutes les autres marques commerciales appartiennent à leurs propriétaires respectifs. Tous droits réservés.</p>
+        </div>
+        <div class="row warnerBros">
+            <img src="./assets/img/footerLogos/wblogo.png" alt="PS4 logo">
+            <p>Logo WB Games, BLASON WB : ™ et © Warner Bros. Entertainment Inc.<br>(s18)</p>
+        </div>
+        <div class="row confUtil">
+            <a class="politique" href="https://policies.warnerbros.com/privacy/" target="_blank">POLITIQUE DE CONFIDENTIALITÉ</a>
+            <a class="conditions" href="https://policies.warnerbros.com/terms/en-us/html/terms_en-us_1.0.0.html" target="_blank">CONDITIONS D'UTILISATION</a>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery.js"></script>
+    <script src="jquery.translate.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
